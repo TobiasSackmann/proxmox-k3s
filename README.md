@@ -14,9 +14,19 @@ Usage
 -----
 * After cloning this repository, you should update the modules with `git submodule update --init --recursive`
 * Create your .tfvars file with the variables defined in the terraform/variables.tf
-* Execute the setup.sh script from the setup direcory. It might be necessary to execute the fololowing steps manually, as sometimes the virtual machine is not directly ready after being created.
+* Execute the setup.sh script from the setup direcory. It might be necessary to execute the following steps manually, as sometimes the virtual machine is not immediately respond after being created.
     * ```shell
         pushd ../k3s-ansible/
         ansible-playbook ./playbook/site.yml -i ../setup/inventory.yml
         popd 
         ```
+
+Technologies used
+-----
+
+* Terraform
+* K3s
+* Ansible
+* Python
+* Jinja
+* Shell
