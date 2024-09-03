@@ -19,5 +19,5 @@ python3 parse_inventory.py
 # install k3s on the k3s host
 echo 'Install k3s'
 pushd ../k3s-ansible/
-ansible-playbook ./playbook/site.yml -i ../setup/inventory.yml
+ansible-playbook ./playbooks/site.yml -i ../setup/inventory.yml
 popd
