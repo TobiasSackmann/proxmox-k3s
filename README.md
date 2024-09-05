@@ -25,6 +25,8 @@ Technologies used
 -----
 
 * Terraform
+* Proxmox
+* Cluster Init
 * K3s
 * Ansible
 * Python
