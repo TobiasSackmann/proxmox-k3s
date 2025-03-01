@@ -15,9 +15,9 @@ resource "proxmox_vm_qemu" "k3s" {
   qemu_os     = "l26"
   # this l26 is a small l like linux
   cores   = 2
-  sockets = 1
+  sockets = 2
   cpu     = "host"
-  memory  = 12144
+  memory  = 14000
   scsihw  = "virtio-scsi-pci"
   vga {
     type = "std"
